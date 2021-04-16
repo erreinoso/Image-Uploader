@@ -1,0 +1,91 @@
+:root {
+  --main-bg-color: rgba(246, 248, 251, 1);
+  --secondary-bg-color: white;
+  --main-font-family: Poppins;
+  --main-border-color: grey;
+  --secondary-font-color: rgba(189, 189, 189, 1);
+  --terciary-font-color: rgb(255, 255, 255);
+  --button-color: rgba(47, 128, 237, 1);
+}
+
+#root {
+  background-color: var(--main-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  font-family: var(--main-font-family);
+  background-color: var(--secondary-bg-color);
+  height: 469px;
+  width: 402px;
+  border-radius: 12px;
+  padding: 32px;
+  text-align: center;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+}
+
+.instructions {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: -0.035em;
+}
+
+.drop-box {
+  background-color: var(--main-bg-color);
+  margin: auto;
+  height: 220px;
+  border: 1px dashed var(--main-border-color);
+  border-radius: 12px; /*REPASAR ESTO */
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 19px;
+}
+
+.drop-note {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.035em;
+  color: var(--secondary-font-color);
+}
+
+.small {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--secondary-font-color);
+}
+
+.drop-image {
+}
+
+.button {
+  width: 101px;
+  height: 31.98px;
+  border-radius: 8px;
+  background-color: var(--button-color);
+  margin: 36px;
+  color: var(--terciary-font-color);
+  padding: 8px;
+}
